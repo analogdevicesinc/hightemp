@@ -1,0 +1,16 @@
+.\objects\uart.o: src\uart.c
+.\objects\uart.o: .\hdr\uart.h
+.\objects\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\uart.o: .\hdr\ht_dab_user.h
+.\objects\uart.o: ..\..\Common\hdr\va108xx.h
+.\objects\uart.o: ..\..\Common\hdr\core_cm0.h
+.\objects\uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart.o: ..\..\Common\hdr\core_cmInstr.h
+.\objects\uart.o: ..\..\Common\hdr\cmsis_armcc.h
+.\objects\uart.o: ..\..\Common\hdr\core_cmFunc.h
+.\objects\uart.o: ..\..\Common\hdr\system_va108xx.h
+.\objects\uart.o: .\hdr\ht_dab.h
+.\objects\uart.o: .\hdr\irq_vectors.h

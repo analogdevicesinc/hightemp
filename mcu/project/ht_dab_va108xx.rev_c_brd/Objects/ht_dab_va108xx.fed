@@ -1,0 +1,138 @@
+;#<FEEDBACK># ARM Linker, 5060528: Last Updated: Tue Feb 06 09:00:32 2018
+;VERSION 0.2
+;FILE driver.common.o
+VOR_Get_ClockFreq <= USED 0
+VOR_Get_SysTime <= USED 0
+VOR_Sleep <= USED 0
+__asm___15_driver_common_c_0e96996e____REV16 <= USED 0
+__asm___15_driver_common_c_0e96996e____REVSH <= USED 0
+;FILE heap_1.o
+pvPortMalloc <= USED 0
+vPortFree <= USED 0
+vPortInitialiseBlocks <= USED 0
+xPortGetFreeHeapSize <= USED 0
+;FILE list.o
+vListInitialise <= USED 0
+vListInitialiseItem <= USED 0
+vListInsert <= USED 0
+;FILE main.o
+FeedWatchdog <= USED 0
+TaskDemo <= USED 0
+__asm___6_main_c_SPIInit____REV16 <= USED 0
+__asm___6_main_c_SPIInit____REVSH <= USED 0
+check_EFCONFIG <= USED 0
+vApplicationMallocFailedHook <= USED 0
+;FILE output.o
+__asm___8_output_c_9d64a896____REV16 <= USED 0
+__asm___8_output_c_9d64a896____REVSH <= USED 0
+getVolt1000fromSum <= USED 0
+;FILE parser.o
+__asm___8_parser_c_be5a9e92____REV16 <= USED 0
+__asm___8_parser_c_be5a9e92____REVSH <= USED 0
+;FILE port.o
+__asm___6_port_c_39a90d8d__prvPortStartFirstTask <= USED 0
+pxPortInitialiseStack <= USED 0
+vPortEndScheduler <= USED 0
+vPortEnterCritical <= USED 0
+vPortExitCritical <= USED 0
+vPortSVCHandler <= USED 0
+vPortYield <= USED 0
+xPortStartScheduler <= USED 0
+;FILE queue.o
+pcQueueGetName <= USED 0
+ucQueueGetQueueType <= USED 0
+uxQueueGetQueueNumber <= USED 0
+uxQueueMessagesWaiting <= USED 0
+uxQueueMessagesWaitingFromISR <= USED 0
+uxQueueSpacesAvailable <= USED 0
+vQueueAddToRegistry <= USED 0
+vQueueDelete <= USED 0
+vQueueSetQueueNumber <= USED 0
+vQueueUnregisterQueue <= USED 0
+vQueueWaitForMessageRestricted <= USED 0
+xQueueAddToSet <= USED 0
+xQueueCreateCountingSemaphore <= USED 0
+xQueueCreateMutex <= USED 0
+xQueueCreateSet <= USED 0
+xQueueGenericCreate <= USED 0
+xQueueGenericReceive <= USED 0
+xQueueGenericReset <= USED 0
+xQueueGenericSend <= USED 0
+xQueueGenericSendFromISR <= USED 0
+xQueueGiveFromISR <= USED 0
+xQueueGiveMutexRecursive <= USED 0
+xQueueIsQueueEmptyFromISR <= USED 0
+xQueueIsQueueFullFromISR <= USED 0
+xQueuePeekFromISR <= USED 0
+xQueueReceiveFromISR <= USED 0
+xQueueRemoveFromSet <= USED 0
+xQueueSelectFromSet <= USED 0
+xQueueSelectFromSetFromISR <= USED 0
+xQueueTakeMutexRecursive <= USED 0
+;FILE sampling_engine.o
+__asm___17_sampling_engine_c_ui32Dbg1____REV16 <= USED 0
+__asm___17_sampling_engine_c_ui32Dbg1____REVSH <= USED 0
+;FILE startup_va108xx.o
+;FILE system_va108xx.o
+SystemCoreClockUpdate <= USED 0
+__asm___16_system_va108xx_c_5d646a67____REV16 <= USED 0
+__asm___16_system_va108xx_c_5d646a67____REVSH <= USED 0
+;FILE tasks.o
+eTaskGetState <= USED 0
+pcTaskGetName <= USED 0
+pvTaskIncrementMutexHeldCount <= USED 0
+ulTaskNotifyTake <= USED 0
+uxTaskGetNumberOfTasks <= USED 0
+uxTaskGetStackHighWaterMark <= USED 0
+uxTaskGetSystemState <= USED 0
+uxTaskGetTaskNumber <= USED 0
+uxTaskPriorityGet <= USED 0
+uxTaskPriorityGetFromISR <= USED 0
+uxTaskResetEventItemValue <= USED 0
+vTaskDelay <= USED 0
+vTaskDelayUntil <= USED 0
+vTaskDelete <= USED 0
+vTaskEndScheduler <= USED 0
+vTaskGetInfo <= USED 0
+vTaskMissedYield <= USED 0
+vTaskNotifyGiveFromISR <= USED 0
+vTaskPlaceOnEventList <= USED 0
+vTaskPlaceOnEventListRestricted <= USED 0
+vTaskPlaceOnUnorderedEventList <= USED 0
+vTaskPriorityInherit <= USED 0
+vTaskPrioritySet <= USED 0
+vTaskResume <= USED 0
+vTaskSetTaskNumber <= USED 0
+vTaskSetTimeOutState <= USED 0
+vTaskStartScheduler <= USED 0
+vTaskSuspend <= USED 0
+vTaskSuspendAll <= USED 0
+xTaskCheckForTimeOut <= USED 0
+xTaskCreate <= USED 0
+xTaskGenericNotify <= USED 0
+xTaskGenericNotifyFromISR <= USED 0
+xTaskGetCurrentTaskHandle <= USED 0
+xTaskGetSchedulerState <= USED 0
+xTaskGetTickCount <= USED 0
+xTaskGetTickCountFromISR <= USED 0
+xTaskNotifyStateClear <= USED 0
+xTaskNotifyWait <= USED 0
+xTaskPriorityDisinherit <= USED 0
+xTaskRemoveFromEventList <= USED 0
+xTaskRemoveFromUnorderedEventList <= USED 0
+xTaskResumeAll <= USED 0
+xTaskResumeFromISR <= USED 0
+;FILE timers.o
+pcTimerGetName <= USED 0
+pvTimerGetTimerID <= USED 0
+vTimerSetTimerID <= USED 0
+xTimerCreate <= USED 0
+xTimerCreateTimerTask <= USED 0
+xTimerGenericCommand <= USED 0
+xTimerGetExpiryTime <= USED 0
+xTimerGetPeriod <= USED 0
+xTimerGetTimerDaemonTaskHandle <= USED 0
+xTimerIsTimerActive <= USED 0
+;FILE uart.o
+__asm___6_uart_c_fe8d4c4b____REV16 <= USED 0
+__asm___6_uart_c_fe8d4c4b____REVSH <= USED 0

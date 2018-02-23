@@ -1,0 +1,15 @@
+.\objects\sampling_engine.o: src\sampling_engine.c
+.\objects\sampling_engine.o: .\hdr\sampling_engine.h
+.\objects\sampling_engine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\sampling_engine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\sampling_engine.o: ..\..\Common\hdr\va108xx.h
+.\objects\sampling_engine.o: ..\..\Common\hdr\core_cm0.h
+.\objects\sampling_engine.o: ..\..\Common\hdr\core_cmInstr.h
+.\objects\sampling_engine.o: ..\..\Common\hdr\cmsis_armcc.h
+.\objects\sampling_engine.o: ..\..\Common\hdr\core_cmFunc.h
+.\objects\sampling_engine.o: ..\..\Common\hdr\system_va108xx.h
+.\objects\sampling_engine.o: .\hdr\ht_dab.h
+.\objects\sampling_engine.o: .\hdr\irq_vectors.h
+.\objects\sampling_engine.o: .\hdr\ht_dab_user.h
+.\objects\sampling_engine.o: ..\..\Driver\hdr\driver_common.h
+.\objects\sampling_engine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

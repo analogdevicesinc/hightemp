@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0
+-I.\RTE\_reb1_va108xx
+-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS
+-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d --feedback ".\Objects\ht_dab_va108xx.fed" "Source\tasks.c"
