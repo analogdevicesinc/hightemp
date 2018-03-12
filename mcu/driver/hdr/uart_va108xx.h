@@ -29,8 +29,6 @@ extern VOR_DRIVER_UART Driver_UART0;
 extern VOR_DRIVER_UART Driver_UART1;
 extern uint32_t VOR_Get_SysTime(void);
 
-extern uint8_t UART_RX_Buff_Not_empty;   //  
-
 
 #define UART0_CLK_EN_MASK  (1<<8)
 #define UART1_CLK_EN_MASK  (1<<9)

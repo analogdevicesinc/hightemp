@@ -1,6 +1,6 @@
 #include "va108xx.h"
 #include "stdio.h"
-// #include "reb_log.h"
+#include "reb_log.h"
 
 // Safe memory access routine, that support possible fault recovery
 // Needs to be compiled UnOptimized

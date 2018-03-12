@@ -9,6 +9,8 @@ This reference design is a collaboration between ADI Alliance members VORAGO Tec
 ## Project Descriptions ##
 /mcu contains the VA10800 ARM® Cortex®-M0 firmware project, utilizing FreeRTOS.  The project was developed with Keil µvision IDE revision 5.23. The code size is below 32k and the free evaluation version can be used. 
 
+/mcu_pack contains the Keil "pack" file for supporting the VORAGO VA10800.  See the documentation referenced below for instructions on installation of this file in the Keil IDE
+
 /ht_daq_viewer contains the C# project for the HT DAQ Viewer application.  
 
 

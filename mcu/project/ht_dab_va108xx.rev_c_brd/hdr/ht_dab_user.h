@@ -62,7 +62,7 @@
 //#define configENABLE_WDT
 
 /* Hard coded application version. */
-#define SOFTWARE_VERSION    "020518_V1"
+#define SOFTWARE_VERSION    "022818_V1.1"
 
 /* Set by Vorago -  Do not change - Contains boot config info */
 #define VOR_EF_CONFIG  (0x81400701) 

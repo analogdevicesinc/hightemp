@@ -1642,20 +1642,20 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-        36          4          0          0          0        570   driver.common.o
-        60          0          0          0          0       1368   list.o
-       650        100          0          0          0      21758   main.o
-      1836        530         16         64         64       7780   output.o
-      1264        466          0          4        128       3148   parser.o
-       156         14          0          0          0       1134   port.o
-      2588        412          0         68      16520      26629   sampling_engine.o
-        36          8        192          0       1024        832   startup_va108xx.o
-        68         26          0          4          0     191751   system_va108xx.o
-       364         26          0         60        160       6532   tasks.o
-       240         56          0         12        256       9127   uart.o
+        36          4          0          0          0        590   driver.common.o
+        60          0          0          0          0       1424   list.o
+       650        100          0          0          0      22070   main.o
+      1836        530         16         64         64       7952   output.o
+      1264        466          0          4        128       3244   parser.o
+       156         14          0          0          0       1174   port.o
+      2588        412          0         68      16520      27277   sampling_engine.o
+        36          8        192          0       1024        852   startup_va108xx.o
+        68         26          0          4          0     191831   system_va108xx.o
+       364         26          0         60        160       6628   tasks.o
+       240         56          0         12        256       9259   uart.o
 
     ----------------------------------------------------------------------
-      7302       1642        240        212      18156     270629   Object Totals
+      7302       1642        240        212      18156     272301   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          4          0          0          0          4          0   (incl. Padding)
 
@@ -1720,8 +1720,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     11336       1762        304        212      18156     269337   Grand Totals
-     11336       1762        304        212      18156     269337   ELF Image Totals
+     11336       1762        304        212      18156     271009   Grand Totals
+     11336       1762        304        212      18156     271009   ELF Image Totals
      11336       1762        304        212          0          0   ROM Totals
 
 ==============================================================================

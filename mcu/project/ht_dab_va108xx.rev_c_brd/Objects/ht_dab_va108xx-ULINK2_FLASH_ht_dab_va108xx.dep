@@ -1,0 +1,213 @@
+Dependencies for Project 'ht_dab_va108xx-ULINK2_FLASH', Target 'ht_dab_va108xx': (DO NOT MODIFY !)
+F (..\..\common\hdr\cmsis_armcc.h)(0x58177890)()
+F (..\..\common\hdr\core_cm0.h)(0x58177890)()
+F (..\..\common\hdr\core_cmFunc.h)(0x58177890)()
+F (..\..\common\hdr\core_cmInstr.h)(0x58177890)()
+F (..\..\common\hdr\system_va108xx.h)(0x58177890)()
+F (..\..\common\hdr\va108xx.h)(0x597B5E0A)()
+F (..\..\common\src\startup_va108xx.s)(0x58177890)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "VA108xx SETA 1"--list .\listings\startup_va108xx.lst --xref -o .\objects\startup_va108xx.o --depend .\objects\startup_va108xx.d)
+F (..\..\common\src\system_va108xx.c)(0x5A957D95)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\system_va108xx.o --omf_browse .\objects\system_va108xx.crf --depend .\objects\system_va108xx.d)
+I (..\..\Common\hdr\va108xx.h)(0x597B5E0A)
+I (..\..\Common\hdr\core_cm0.h)(0x58177890)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (..\..\Common\hdr\core_cmInstr.h)(0x58177890)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x58177890)
+I (..\..\Common\hdr\core_cmFunc.h)(0x58177890)
+I (..\..\Common\hdr\system_va108xx.h)(0x58177890)
+F (..\..\driver\hdr\driver_common.h)(0x58177890)()
+F (..\..\driver\src\driver.common.c)(0x5A99832D)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\driver.common.o --omf_browse .\objects\driver.common.crf --depend .\objects\driver.common.d)
+I (..\..\Driver\hdr\driver_common.h)(0x58177890)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C4824)
+I (..\..\Common\hdr\va108xx.h)(0x597B5E0A)
+I (..\..\Common\hdr\core_cm0.h)(0x58177890)
+I (..\..\Common\hdr\core_cmInstr.h)(0x58177890)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x58177890)
+I (..\..\Common\hdr\core_cmFunc.h)(0x58177890)
+I (..\..\Common\hdr\system_va108xx.h)(0x58177890)
+F (.\src\main.c)(0x5A957E0D)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588C4824)
+I (..\..\Driver\hdr\driver_common.h)(0x58177890)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C4824)
+I (.\Source\include\FreeRTOS.h)(0x5A957DE7)
+I (.\hdr\FreeRTOSConfig.h)(0x5A957E0D)
+I (.\Source\include\projdefs.h)(0x5A957DE7)
+I (.\Source\include\portable.h)(0x5A957DE7)
+I (.\Source\include\deprecated_definitions.h)(0x5A957DE7)
+I (.\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5A957E04)
+I (.\Source\include\mpu_wrappers.h)(0x5A957DE7)
+I (.\Source\include\task.h)(0x5A957DE8)
+I (.\Source\include\list.h)(0x5A957DE7)
+I (.\hdr\ht_dab.h)(0x5A957E0D)
+I (..\..\Common\hdr\va108xx.h)(0x597B5E0A)
+I (..\..\Common\hdr\core_cm0.h)(0x58177890)
+I (..\..\Common\hdr\core_cmInstr.h)(0x58177890)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x58177890)
+I (..\..\Common\hdr\core_cmFunc.h)(0x58177890)
+I (..\..\Common\hdr\system_va108xx.h)(0x58177890)
+I (.\hdr\irq_vectors.h)(0x5A957E0D)
+I (.\hdr\ht_dab_user.h)(0x5A99898B)
+I (.\hdr\uart.h)(0x5A957E0D)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588C4824)
+I (.\hdr\parser.h)(0x5A957E0D)
+I (.\hdr\sampling_engine.h)(0x5A957E0D)
+F (.\src\uart.c)(0x5A957E0E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (.\hdr\uart.h)(0x5A957E0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588C4824)
+I (.\hdr\ht_dab_user.h)(0x5A99898B)
+I (..\..\Common\hdr\va108xx.h)(0x597B5E0A)
+I (..\..\Common\hdr\core_cm0.h)(0x58177890)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (..\..\Common\hdr\core_cmInstr.h)(0x58177890)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x58177890)
+I (..\..\Common\hdr\core_cmFunc.h)(0x58177890)
+I (..\..\Common\hdr\system_va108xx.h)(0x58177890)
+I (.\hdr\ht_dab.h)(0x5A957E0D)
+I (.\hdr\irq_vectors.h)(0x5A957E0D)
+F (.\src\output.c)(0x5A957E0E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\output.o --omf_browse .\objects\output.crf --depend .\objects\output.d)
+I (.\hdr\output.h)(0x5A957E0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588C4824)
+I (.\hdr\uart.h)(0x5A957E0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588C4824)
+I (.\hdr\ht_dab_user.h)(0x5A99898B)
+I (..\..\Common\hdr\va108xx.h)(0x597B5E0A)
+I (..\..\Common\hdr\core_cm0.h)(0x58177890)
+I (..\..\Common\hdr\core_cmInstr.h)(0x58177890)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x58177890)
+I (..\..\Common\hdr\core_cmFunc.h)(0x58177890)
+I (..\..\Common\hdr\system_va108xx.h)(0x58177890)
+I (.\hdr\ht_dab.h)(0x5A957E0D)
+I (.\hdr\irq_vectors.h)(0x5A957E0D)
+I (.\hdr\sampling_engine.h)(0x5A957E0D)
+I (..\..\Driver\hdr\driver_common.h)(0x58177890)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C4824)
+F (.\src\parser.c)(0x5A957E0E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\parser.o --omf_browse .\objects\parser.crf --depend .\objects\parser.d)
+I (.\hdr\parser.h)(0x5A957E0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (.\hdr\uart.h)(0x5A957E0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588C4824)
+I (.\hdr\ht_dab_user.h)(0x5A99898B)
+I (..\..\Common\hdr\va108xx.h)(0x597B5E0A)
+I (..\..\Common\hdr\core_cm0.h)(0x58177890)
+I (..\..\Common\hdr\core_cmInstr.h)(0x58177890)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x58177890)
+I (..\..\Common\hdr\core_cmFunc.h)(0x58177890)
+I (..\..\Common\hdr\system_va108xx.h)(0x58177890)
+I (.\hdr\ht_dab.h)(0x5A957E0D)
+I (.\hdr\irq_vectors.h)(0x5A957E0D)
+I (.\hdr\sampling_engine.h)(0x5A957E0D)
+I (..\..\Driver\hdr\driver_common.h)(0x58177890)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C4824)
+I (.\hdr\output.h)(0x5A957E0D)
+F (.\src\sampling_engine.c)(0x5A957E0E)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\sampling_engine.o --omf_browse .\objects\sampling_engine.crf --depend .\objects\sampling_engine.d)
+I (.\hdr\sampling_engine.h)(0x5A957E0D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C4824)
+I (..\..\Common\hdr\va108xx.h)(0x597B5E0A)
+I (..\..\Common\hdr\core_cm0.h)(0x58177890)
+I (..\..\Common\hdr\core_cmInstr.h)(0x58177890)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x58177890)
+I (..\..\Common\hdr\core_cmFunc.h)(0x58177890)
+I (..\..\Common\hdr\system_va108xx.h)(0x58177890)
+I (.\hdr\ht_dab.h)(0x5A957E0D)
+I (.\hdr\irq_vectors.h)(0x5A957E0D)
+I (.\hdr\ht_dab_user.h)(0x5A99898B)
+I (..\..\Driver\hdr\driver_common.h)(0x58177890)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C4824)
+F (.\Source\list.c)(0x5A957E0C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588C4824)
+I (.\Source\include\FreeRTOS.h)(0x5A957DE7)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (.\hdr\FreeRTOSConfig.h)(0x5A957E0D)
+I (.\Source\include\projdefs.h)(0x5A957DE7)
+I (.\Source\include\portable.h)(0x5A957DE7)
+I (.\Source\include\deprecated_definitions.h)(0x5A957DE7)
+I (.\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5A957E04)
+I (.\Source\include\mpu_wrappers.h)(0x5A957DE7)
+I (.\Source\include\list.h)(0x5A957DE7)
+F (.\Source\queue.c)(0x5A957E0C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588C4824)
+I (.\Source\include\FreeRTOS.h)(0x5A957DE7)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (.\hdr\FreeRTOSConfig.h)(0x5A957E0D)
+I (.\Source\include\projdefs.h)(0x5A957DE7)
+I (.\Source\include\portable.h)(0x5A957DE7)
+I (.\Source\include\deprecated_definitions.h)(0x5A957DE7)
+I (.\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5A957E04)
+I (.\Source\include\mpu_wrappers.h)(0x5A957DE7)
+I (.\Source\include\task.h)(0x5A957DE8)
+I (.\Source\include\list.h)(0x5A957DE7)
+I (.\Source\include\queue.h)(0x5A957DE8)
+F (.\Source\tasks.c)(0x5A957E0D)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588C4824)
+I (.\Source\include\FreeRTOS.h)(0x5A957DE7)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (.\hdr\FreeRTOSConfig.h)(0x5A957E0D)
+I (.\Source\include\projdefs.h)(0x5A957DE7)
+I (.\Source\include\portable.h)(0x5A957DE7)
+I (.\Source\include\deprecated_definitions.h)(0x5A957DE7)
+I (.\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5A957E04)
+I (.\Source\include\mpu_wrappers.h)(0x5A957DE7)
+I (.\Source\include\task.h)(0x5A957DE8)
+I (.\Source\include\list.h)(0x5A957DE7)
+I (.\Source\include\timers.h)(0x5A957DE8)
+I (.\Source\include\StackMacros.h)(0x5A957DE7)
+F (.\Source\portable\RVDS\ARM_CM0\port.c)(0x5A957E04)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\Source\include\FreeRTOS.h)(0x5A957DE7)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (.\hdr\FreeRTOSConfig.h)(0x5A957E0D)
+I (.\Source\include\projdefs.h)(0x5A957DE7)
+I (.\Source\include\portable.h)(0x5A957DE7)
+I (.\Source\include\deprecated_definitions.h)(0x5A957DE7)
+I (.\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5A957E04)
+I (.\Source\include\mpu_wrappers.h)(0x5A957DE7)
+I (.\Source\include\task.h)(0x5A957DE8)
+I (.\Source\include\list.h)(0x5A957DE7)
+F (.\Source\portable\MemMang\heap_1.c)(0x5A957E02)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\heap_1.o --omf_browse .\objects\heap_1.crf --depend .\objects\heap_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588C4824)
+I (.\Source\include\FreeRTOS.h)(0x5A957DE7)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (.\hdr\FreeRTOSConfig.h)(0x5A957E0D)
+I (.\Source\include\projdefs.h)(0x5A957DE7)
+I (.\Source\include\portable.h)(0x5A957DE7)
+I (.\Source\include\deprecated_definitions.h)(0x5A957DE7)
+I (.\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5A957E04)
+I (.\Source\include\mpu_wrappers.h)(0x5A957DE7)
+I (.\Source\include\task.h)(0x5A957DE8)
+I (.\Source\include\list.h)(0x5A957DE7)
+F (.\Source\timers.c)(0x5A957E0D)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\Driver\hdr -I .\hdr -I ..\..\Utilities\hdr -I ..\..\Common\hdr -I .\Source\include -I .\Source\portable\RVDS\ARM_CM0-I.\RTE\_ht_dab_va108xx-IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588C4824)
+I (.\Source\include\FreeRTOS.h)(0x5A957DE7)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588C4824)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C4824)
+I (.\hdr\FreeRTOSConfig.h)(0x5A957E0D)
+I (.\Source\include\projdefs.h)(0x5A957DE7)
+I (.\Source\include\portable.h)(0x5A957DE7)
+I (.\Source\include\deprecated_definitions.h)(0x5A957DE7)
+I (.\Source\portable\RVDS\ARM_CM0\portmacro.h)(0x5A957E04)
+I (.\Source\include\mpu_wrappers.h)(0x5A957DE7)
+I (.\Source\include\task.h)(0x5A957DE8)
+I (.\Source\include\list.h)(0x5A957DE7)
+I (.\Source\include\queue.h)(0x5A957DE8)
+I (.\Source\include\timers.h)(0x5A957DE8)

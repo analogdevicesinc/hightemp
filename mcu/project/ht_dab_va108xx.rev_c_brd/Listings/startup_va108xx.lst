@@ -397,10 +397,10 @@ ARM Macro Assembler    Page 7
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
 ork --depend=.\objects\startup_va108xx.d -o.\objects\startup_va108xx.o -I.\RTE\
-_reb1_va108xx -IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core -IC:\Keil_v5\ARM\
-CMSIS\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --pre
-define="__UVISION_VERSION SETA 524" --predefine="VA108xx SETA 1" --list=.\listi
-ngs\startup_va108xx.lst ..\..\common\src\startup_va108xx.s
+_ht_dab_va108xx -IC:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.4.0\core -IC:\Keil_v5\AR
+M\CMSIS\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB SETA 1" --p
+redefine="__UVISION_VERSION SETA 524" --predefine="VA108xx SETA 1" --list=.\lis
+tings\startup_va108xx.lst ..\..\common\src\startup_va108xx.s
 
 
 
